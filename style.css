@@ -6,3 +6,7 @@ header, footer {
 h1, h2 {
     color: rgb(132, 35, 35)
 }
+
+a {
+    color: rgba(214, 186, 27, 0.719)
+}
