@@ -6,6 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furry Friends</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        let likeToVisit = prompt("Do you want to visit us at Mount Nebu?  Please answer yes or no.");
+
+        if(likeToVisit === 'yes' || likeToVisit === 'Yes') {
+           document.write("Yay! Please email us at the email address provide below!");
+        }
+        else if(likeToVisit === 'no' || likeToVisit === 'No') {
+           document.write("That's too bad, but if you ever want more information, please email us at the email address provided below!");
+         }
+         else{
+           document.write("Please try again with yes or no");
+         }
+      </script>
 </head>
 <body>
     <header>
