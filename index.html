@@ -16,11 +16,13 @@
        <script>
          let likeAnimals = prompt("Do you like furry creatures?  Please answer yes or no.");
 
-         if(likeAnimals === 'yes') {
+         if(likeAnimals === 'yes' || likeAnimals === 'Yes') {
             document.write("Yeah!  Mount Nebu is the place for you!");
-         }if(likeAnimals === 'no') {
+         }
+         else if(likeAnimals === 'no' || likeAnimals === 'No') {
             document.write("That's too bad, but our furry creatures like you anyway!");
-          }else{
+          }
+          else{
             document.write("Please try again with yes or no");
           }
        </script>
