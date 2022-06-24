@@ -35,8 +35,9 @@ function furryLove()  {
      else{
        document.write("Please try again with yes or no");
      }
+}
 
-
+     
 function greatCatDogDivide() {
     let dogOrCat = prompt("Are you a dog or cat person?  Please answer with dog or cat.");
 
@@ -49,7 +50,6 @@ function greatCatDogDivide() {
      else{
        document.write("Please try again with dog or cat");
      }
-
 
 }
 
