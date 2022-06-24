@@ -52,3 +52,15 @@ function greatCatDogDivide() {
      }
 
 }
+
+function dogWithBlues() {
+    let blues = prompt("Yes, even dogs get the blues. On a scale of 1 to 5, please rate how bluesy you think Birdy the dog gets?")
+    for (let i = 1; i <= blues; i++){
+        if(blues === 1 || blues === 2 || blues === 3  || blues === 4 || blues === 5) {
+            document.write(<img src="website-images/dog_with_blue.jpg" alt="Dog with blues">)
+        } else {
+            document.write("Please try again -- please enter a number of 1 through 5");
+          }
+     
+   } 
+}
