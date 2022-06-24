@@ -52,11 +52,3 @@ function greatCatDogDivide() {
      }
 
 }
-
-
-
-
-
-
-}
-
