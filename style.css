@@ -4,13 +4,16 @@ header, footer {
 }
 
 h1, h2 {
-    color: rgb(132, 35, 35)
+    color: rgb(132, 35, 35);
 }
 
 a {
-    color: rgba(214, 186, 27, 0.719)
+    color: rgba(214, 186, 27, 0.719);
 }
 
 h3 {
-    color: rgb(255, 55, 0)
+    background-color: rgb(255, 55, 0);
+    color: white;
+       
+    
 }
