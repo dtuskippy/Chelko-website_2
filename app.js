@@ -53,4 +53,13 @@ function greatCatDogDivide() {
 
 }
 
+function dogWithBlues() {
+    let blues = prompt("Yes, even dogs get the blues. On a scale of 1 to 5, please rate how bluesy you think Birdy the dog gets?")
+    for (let i = 1; i <= blues; i++){
+            document.write("<p>dogWithBlues</p>")
+        } 
+     
+   } 
+
+
 
