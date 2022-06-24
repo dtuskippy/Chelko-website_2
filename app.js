@@ -16,3 +16,47 @@ function visitInquiry() {
 
 }
 
+function grabName() {
+
+    let visitorName = prompt("Hello!  Could you please tell us your name?")
+    document.write(`Welcome to Mount Nebu, ${visitorName}!`)
+
+}
+
+function furryLove()  {
+    let likeAnimals = prompt("Do you like furry creatures?  Please answer yes or no.");
+
+    if(likeAnimals === 'yes' || likeAnimals === 'Yes') {
+       document.write("Yeah!  Mount Nebu is the place for you!");
+    }
+    else if(likeAnimals === 'no' || likeAnimals === 'No') {
+       document.write("That's too bad, but our furry creatures like you anyway!");
+     }
+     else{
+       document.write("Please try again with yes or no");
+     }
+
+
+function greatCatDogDivide() {
+    let dogOrCat = prompt("Are you a dog or cat person?  Please answer with dog or cat.");
+
+    if(dogOrCat === 'dog' || dogOrCat === 'Dog') {
+       document.write("Hello Dog Lover!  You'll love Birdy!");
+    }
+    else if(dogOrCat === 'cat' || dogOrCat === 'Cat') {
+       document.write("Cat lovers rock! Take your pick or love all three -- Markus, Izzy and Gizmo!");
+     }
+     else{
+       document.write("Please try again with dog or cat");
+     }
+
+
+}
+
+
+
+
+
+
+}
+
